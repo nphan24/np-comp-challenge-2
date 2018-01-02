@@ -1,0 +1,431 @@
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #e7d37d;
+  font-family: 'Roboto Mono', monospace;
+}
+
+img {
+  height: 6.5rem;
+  margin: 1rem .5rem .5rem 1rem;
+  vertical-align: middle;
+  width: 6.5rem;
+}
+
+nav {
+  display: flex;
+}
+
+header {
+  background-color: #38ab2c;
+}
+
+h1 {
+  margin: 2rem 0 1rem 2rem;
+  font-size: 5rem;
+}
+
+h2 {
+  margin: 1rem 0 .5rem 0;
+  padding-left: 4%;
+  font-size: 3rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  padding: .5rem 1.5rem 0 0;
+  color; #fff;
+  filter: invert(100%);
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+h4 {
+  float: right;
+  margin-right: 1rem;
+  font-size: 3rem;
+  filter: invert(100%);
+}
+
+h5 {
+  float: right;
+  margin: 0;
+  padding: 2% 2% 0 0;
+  color: #fff;
+}
+
+h6 {
+  margin: 1rem 0 .5rem 0;
+  padding-left: 4%;
+  font-size: 1.5rem;
+}
+
+article {
+  border: 1px solid black;
+  box-shadow: 0 3px 10px #888;
+  height: 550px;
+  margin: .4% .2%;
+/*  min-height: 400px;*/
+  min-width: 310px;
+  width: 24%;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+ /* transform: rotateY(30deg);*/
+  transition-duration: .5s;
+  transition-property: transform;
+}
+
+article:hover { 
+/*  transform: rotateY(-30deg);*/
+}
+
+a {
+  padding-left: 2%;
+}
+
+.links {
+  margin: 2rem 0 3rem 0;
+  font-size: 3rem;
+}
+
+.article-cards {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: auto;
+  padding: 0 1%;
+}
+
+.top-icon {
+  height: 3.5rem;
+  width: 5.2rem;
+  padding-bottom: 1rem;
+}
+
+.abilities {
+  padding: 0 0 4% 4%;
+  font-size: 2rem;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.section-five,
+.section-six,
+.section-seven,
+.section-eight {
+  height: 35%;
+  background-position: center;
+  background-size: cover;
+  /*filter: brightness(0.6);*/
+}
+
+.section-one {
+  background-image: url("images/bulbasaur.png");
+}
+
+.section-two {
+  background-image: url("images/charmander.png");
+}
+
+.section-three {
+  background-image: url("images/squirtle1.jpg");
+}
+
+.section-four {
+  background-image: url("images/pikachu.jpg");
+}
+
+.section-five {
+  background-image: url("images/dragonite.jpg");
+}
+
+.section-six {
+  background-image: url("images/flareon.png");
+}
+
+.section-seven {
+  background-image: url("images/zapdos.jpg");
+}
+
+.section-eight {
+  background-image: url("images/snorlax.jpg");
+}
+
+.section-link {
+  margin: 3rem 1rem 1rem 1rem;
+  height: 4%;
+  padding: 2rem 0;
+  background-color: #EFEFEF;
+}
+
+.bottom {
+  height: 320px;
+}
+
+#grass-type,
+#fire-type,
+#water-type,
+#lightning-type,
+#star-type {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: .5rem;
+}
+
+#grass-type {
+  background-color: green;
+}
+
+#fire-type {
+  background-color: red;
+}
+
+#water-type {
+  background-color: blue;
+}
+
+#lightning-type {
+  background-color: yellow;
+}
+
+#star-type {
+  background-color: #A9A9A9;
+}
+
+#login-img,
+#down-arrow {
+  width: 2rem;
+  padding-bottom: 1rem;
+  vertical-align: middle;
+}
+
+#cards,
+#rarity {
+  margin-left: 2rem;
+}
+
+#hp-num {
+  font-size: 3rem;
+}
+
+#hp {
+  padding-right: 3rem;
+  font-size: 3rem;
+}
+
+#national-num {
+  margin-top: 1rem;
+  color: blue;
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 1304px) {
+  article {
+    height: 60%;
+    width: 30%;
+  }
+
+  .abilities {
+    padding-bottom: 2rem;
+  }
+
+  #hp {
+    padding-right: 1rem;
+  }
+
+  #national-num {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 972px) {
+  h1 {
+    margin-left: 1.5%;
+    font-size:  4rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  article {
+    width: 40%;
+  }
+
+  #grass-type,
+  #fire-type,
+  #water-type,
+  #lightning-type,
+  #star-type {
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+  .top-icon {
+    height: 2.5rem;
+    padding-bottom: .8rem;
+    margin-right: 0;
+    width: 4rem;
+  }
+
+  #fireworks {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  article {
+    width: 60%;
+  }
+
+  #rarity {
+    margin-left: 0;
+  }
+
+  #cards {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  html {
+    font-size: 42.5%;
+  }
+
+  h1 {
+    padding-left: 2%;
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    padding-top: 0;
+  }
+
+  h4 {
+    float: none;
+    margin-top: 0;
+  }
+
+  h6 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  article {
+    width: 80%;
+    height: 500px;
+  }
+
+  .article-cards {
+    padding: 0 2%;
+  }
+
+  .section-link {
+    margin-top: 0;
+  }
+
+  .abilities {
+    padding-bottom: 3rem;
+    font-size: 2rem;
+  }
+
+  #grass-type,
+  #fire-type,
+  #water-type,
+  #lightning-type,
+  #star-type {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+  #team {
+    margin-bottom: 1rem;
+    padding-left: 2%;
+    text-align: right;
+  }
+
+  #login {
+    margin-bottom: 0;
+  }
+
+  #national-num {
+    font-size: 7rem;
+    padding-top: 2rem;
+  }
+
+  #date {
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  h3 {
+    height: 10%;
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  .top-icon {
+    height: 1.8rem;
+    margin-right: 0;
+    padding-bottom: .5rem;
+    width: 3rem;
+  }
+
+  .abilities {
+    padding-bottom: 1rem;
+  }
+
+  #login-img,
+  #down-arrow {
+    padding-bottom: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+  }
+
+  #team {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  article{
+    height: 350px;
+  }
+
+  .abilities {
+    padding-bottom: 0rem;
+  }
+
+  #date {
+    padding-bottom: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
